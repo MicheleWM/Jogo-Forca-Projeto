@@ -1,0 +1,248 @@
+ * { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #787878;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.boneco {
+    margin: 20px 30px 10px 50px;
+    height: 90px;
+    width: 90px;
+}
+
+.logo {
+    margin: 20px 0 10px 30px;
+}
+
+
+
+.tela-inicial {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicia-jogo-btn {
+    background-color: #ffff8c ;
+    border: 1px solid #ffff8c ;
+    border-radius: 20px 40px 20px 40px;
+    color: #050505;
+    font-size: 25px;
+    font-family: 'Silkscreen', cursive;
+    height: 100px;
+    margin: 100px 0 25px 0;
+    width: 350px;
+}
+
+.inicia-jogo-btn:hover {
+    background-color: #ffff6c;
+    border: 1px solid #ffff6c;
+    color: #787878;
+    cursor: pointer;
+    transition: 1s; 
+    transform: scale(1.1); 
+}
+
+.add-palavra-btn {
+    background-color: #ffff8c;
+    border: 1px solid #ffff8c;
+    border-radius: 20px 40px 20px 40px;
+    color: #050505;
+    font-size: 25px;
+    font-family: 'Silkscreen', cursive;
+    height: 100px;
+    width: 350px;
+}
+
+.add-palavra-btn:hover {
+    background-color: #ffff6c;
+    border: 1px solid #ffff6c;
+    color: #787878;
+    cursor: pointer;
+    transition: 1s; 
+    transform: scale(1.1); 
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-salva-inicia {
+    background-color: #ffff8c;
+    border: 2px solid #050505;
+    border-radius: 10px;
+    color: #050505;
+    font-size: 38px;
+    font-family: 'Silkscreen', cursive;
+    height: 80px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.btn-salva-inicia:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+.botoes-esquerda {
+    background-color: #050505;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffff8c;
+    font-size: 25px;
+    font-family: 'Silkscreen', cursive;
+    height: 80px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.botoes-esquerda:hover {
+    background-color: #050505;
+    border: 1px solid #ffffff;
+    color: #ffff8c;
+    cursor: pointer;
+    transition: 1s; 
+    transform: scale(1.1); 
+}
+
+.botoes-direita {
+    background-color: #050505;
+    
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffff8c;
+    font-size: 25px;
+    font-family: 'Silkscreen', cursive;
+    height: 80px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.botoes-direita:hover {
+    background-color: #050505;
+    border: 1px solid #ffffff;
+    color: #ffff8c;
+    cursor: pointer;
+    transition: 1s; 
+    transform: scale(1.1); 
+}
+
+
+
+.input-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 140px auto;
+}
+
+.input-add-palavra {
+    background-color: #ffff8c;
+    border: none;
+    border-radius: 20px;
+    color: #050505;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+     height: 70px;
+    margin: 0px 90px 90px 60px;
+    width: 700px;
+}
+
+.input-add-palavra:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.input-add-palavra::placeholder {
+    color: #050505;
+    font-size: 30px;
+}
+
+.aviso {
+    display: flex;
+    margin: 1rem 4rem 1rem 0;
+    padding: 5px;
+}
+
+.aviso-p {
+  color: #222325;
+  margin-left: 7px;
+}
+
+
+.main-jogo {
+    margin: 0 auto;
+}
+
+
+
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.botoes-main {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 75px 300px;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+footer {
+    background: rgb(255, 255, 140);
+    bottom: 0;
+    color: #050505;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+}
+
+footer > h3 {
+    font-size: 21px;
+}
+
+footer> a, i {
+    color: #050505;
+    display: flex;
+    font-size: 25px;
+}
+
+footer> a, i:hover {
+    transform: scale(1.3);
+    transition: 700ms;
+}
+
+.dica {
+    color: #050505;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    margin: 25px;
+    text-align: left;
+}

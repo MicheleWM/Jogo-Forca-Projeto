@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Forca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b4e82f276.js" crossorigin="anonymous"></script>
+  
+</head>
+    <body>
+        <header>
+            <div class="container">
+                <div><img src="https://cursos.alura.com.br/assets/images/classPage/icon-menu-alura.svg" alt="logo alura" class="logo"></div>
+                <div><img src="https://www.imagensanimadas.com/data/media/1528/boneco-de-palito-imagem-animada-0020.gif" border="0" alt="boneco-de-palito-imagem-animada-0020" alt="gif de um boneco com letras do alfabeto" class="boneco" /></a></div>
+            </div>
+        </header>
+
+       
+            <div class="tela-inicial" id="tela-inicio">
+                <button id="inicia-jogo" class="inicia-jogo-btn">Comecar a jogar</button>
+                <button id="adiciona-palavra" class="add-palavra-btn">Adicionar nova palavra</button>
+            </div>
+
+        
+        <section class="input-section hide" id="secao-input">
+            <input type="text" id="add-palavra" class="input-add-palavra" placeholder="Digite uma profissão:">
+                <div class="aviso">
+                    <img class="aviso-img" src="atencao.png" alt="símbolo de um ponto de exclamação">
+                    <p class="aviso-p">Digite o nome de uma profissão (sem acento e máx. 8 letras)</p>
+                </div>
+
+                <div class="botoes">
+                    <button id="salvar-palavra" class="botoes-esquerda">Salvar palavra</button>
+                    <button id="salva-e-inicia" class="btn-salva-inicia">Jogar</button>
+                    <button id="cancela-btn" class="botoes-direita">Cancelar</button>
+                </div>
+        </section> 
+
+
+
+        <main  class="main-jogo hide" id="main-id">
+            <canvas width="1200" height="480" id="forca"></canvas>      
+                <div class="dica">
+                    <h2>Dica: Profissões</h2>
+                </div>
+                    <div class="botoes-main">
+                        <button id="novo-jogo-btn" class="botoes-esquerda">Jogar Novamente</button>
+                        <button id="desistir-btn" class="botoes-direita">Desistir</button>
+                   </div>
+        </main>
+            <footer id="footer">
+                <h3>&copy; Michele Moura-2022</h3>
+                    <div>
+                        <a href="https://github.com/MicheleWM" target="_blank"><i class="fa-brands fa-github fa-fw"></i></a>
+                        <a href="https://www.linkedin.com/in/michelemoura-dev/" target="_blank"><i class="fa-fw fa-brands fa-linkedin"></i></a>
+                    </div>
+            </footer>
+                <script src="./javaScript/script.js"></script>
+                <script src="./javaScript/botoes.js"></script>
+                <script src="./javaScript/canvas.js"></script>
+                <script src="./javaScript/derrota-vitoria.js"></script>
+    </body>
+</html>
