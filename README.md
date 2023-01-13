@@ -4,7 +4,7 @@ Nesse projeto é possível jogar o jogo da forca.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Decodificador de texto**
+| :sparkles: Nome        | **Jogo da Forca**
 | :label: Tecnologias | HTML5 CSS3, JavaScript
 | :rocket: URL         | https://michelewm.github.io/Jogo-Forca-Projeto/
 
